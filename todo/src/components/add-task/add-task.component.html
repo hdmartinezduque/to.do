@@ -1,1 +1,9 @@
 <p>add-task works!</p>
+<h1> Number of trask: {{ numberOfTask }} </h1>
+<h1> Title </h1>
+
+<div class="container_input">
+
+    <input type="text" placeholder="New Task">
+    <button (click)="sendTask()" [disabled]="true">New Task</button>
+</div>
